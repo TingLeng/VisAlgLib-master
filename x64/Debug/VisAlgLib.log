@@ -1,0 +1,496 @@
+﻿  FixPoint.cpp
+f:\c#\visalglib-master\inc\VisionLibrary.h(67): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+f:\c#\visalglib-master\inc\VisionLibrary.h(78): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+f:\c#\visalglib-master\inc\Caliper.h(103): warning C4251: “VisionLibrary::Caliper::center”: class“cv::Point_<float>”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/types.hpp(190): note: 参见“cv::Point_<float>”的声明
+f:\c#\visalglib-master\inc\Caliper.h(122): warning C4251: “VisionLibrary::Caliper::m_ref”: class“VisionLibrary::PoseXYR”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  f:\c#\visalglib-master\inc\VisionLibrary.h(47): note: 参见“VisionLibrary::PoseXYR”的声明
+f:\c#\visalglib-master\inc\Caliper.h(130): warning C4251: “VisionLibrary::Caliper::lastCenter”: class“cv::Point_<float>”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/types.hpp(190): note: 参见“cv::Point_<float>”的声明
+f:\c#\visalglib-master\inc\Caliper.h(133): warning C4251: “VisionLibrary::Caliper::m_profile”: class“cv::Mat”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/mat.hpp(774): note: 参见“cv::Mat”的声明
+f:\c#\visalglib-master\inc\Caliper.h(135): warning C4251: “VisionLibrary::Caliper::m_image”: class“cv::Mat”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/mat.hpp(774): note: 参见“cv::Mat”的声明
+f:\c#\visalglib-master\inc\Caliper.h(137): warning C4251: “VisionLibrary::Caliper::m_result”: class“std::vector<VisionLibrary::Caliper::CaliperResult,std::allocator<_Ty>>”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+          with
+          [
+              _Ty=VisionLibrary::Caliper::CaliperResult
+          ]
+  f:\c#\visalglib-master\inc\Caliper.h(89): note: 参见“std::vector<VisionLibrary::Caliper::CaliperResult,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=VisionLibrary::Caliper::CaliperResult
+          ]
+F:\C#\VisAlgLib-master\inc\FindLine.h(114): warning C4251: “VisionLibrary::FindLine::ptStart”: class“cv::Point_<int>”需要有 dll 接口由 class“VisionLibrary::FindLine”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/types.hpp(188): note: 参见“cv::Point_<int>”的声明
+F:\C#\VisAlgLib-master\inc\FindLine.h(115): warning C4251: “VisionLibrary::FindLine::ptEnd”: class“cv::Point_<int>”需要有 dll 接口由 class“VisionLibrary::FindLine”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/types.hpp(188): note: 参见“cv::Point_<int>”的声明
+F:\C#\VisAlgLib-master\inc\FindLine.h(130): warning C4251: “VisionLibrary::FindLine::ref”: class“VisionLibrary::PoseXYR”需要有 dll 接口由 class“VisionLibrary::FindLine”的客户端使用
+  f:\c#\visalglib-master\inc\VisionLibrary.h(47): note: 参见“VisionLibrary::PoseXYR”的声明
+F:\C#\VisAlgLib-master\inc\FindLine.h(141): warning C4251: “VisionLibrary::FindLine::m_caliperResults”: class“std::vector<VisionLibrary::FindLine::FindLineCaliperResult,std::allocator<_Ty>>”需要有 dll 接口由 class“VisionLibrary::FindLine”的客户端使用
+          with
+          [
+              _Ty=VisionLibrary::FindLine::FindLineCaliperResult
+          ]
+  F:\C#\VisAlgLib-master\inc\FindLine.h(106): note: 参见“std::vector<VisionLibrary::FindLine::FindLineCaliperResult,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=VisionLibrary::FindLine::FindLineCaliperResult
+          ]
+F:\C#\VisAlgLib-master\inc\FindLine.h(145): warning C4251: “VisionLibrary::FindLine::vCalipers”: class“std::vector<VisionLibrary::Caliper,std::allocator<_Ty>>”需要有 dll 接口由 class“VisionLibrary::FindLine”的客户端使用
+          with
+          [
+              _Ty=VisionLibrary::Caliper
+          ]
+  F:\C#\VisAlgLib-master\inc\FindLine.h(145): note: 参见“std::vector<VisionLibrary::Caliper,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=VisionLibrary::Caliper
+          ]
+FixPoint.cpp(33): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+FixPoint.cpp(117): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+FixPoint.cpp(118): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+FixPoint.cpp(119): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+FixPoint.cpp(121): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+FixPoint.cpp(122): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+FixPoint.cpp(123): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+FixPoint.cpp(126): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+FixPoint.cpp(127): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+FixPoint.cpp(128): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+FixPoint.cpp(129): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+FixPoint.cpp(130): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+FixPoint.cpp(131): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+FixPoint.cpp(197): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+FixPoint.cpp(207): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+FixPoint.cpp(242): warning C4101: “exc”: 未引用的局部变量
+FixPoint.cpp(294): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+FixPoint.cpp(304): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+FixPoint.cpp(358): warning C4101: “exc”: 未引用的局部变量
+FixPoint.cpp(443): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+FixPoint.cpp(465): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+  main.cpp
+F:\C#\VisAlgLib-master\inc\VisionLibrary.h(67): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+F:\C#\VisAlgLib-master\inc\VisionLibrary.h(78): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+f:\c#\visalglib-master\inc\Caliper.h(103): warning C4251: “VisionLibrary::Caliper::center”: class“cv::Point_<float>”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/types.hpp(190): note: 参见“cv::Point_<float>”的声明
+f:\c#\visalglib-master\inc\Caliper.h(122): warning C4251: “VisionLibrary::Caliper::m_ref”: class“VisionLibrary::PoseXYR”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  F:\C#\VisAlgLib-master\inc\VisionLibrary.h(47): note: 参见“VisionLibrary::PoseXYR”的声明
+f:\c#\visalglib-master\inc\Caliper.h(130): warning C4251: “VisionLibrary::Caliper::lastCenter”: class“cv::Point_<float>”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/types.hpp(190): note: 参见“cv::Point_<float>”的声明
+f:\c#\visalglib-master\inc\Caliper.h(133): warning C4251: “VisionLibrary::Caliper::m_profile”: class“cv::Mat”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/mat.hpp(774): note: 参见“cv::Mat”的声明
+f:\c#\visalglib-master\inc\Caliper.h(135): warning C4251: “VisionLibrary::Caliper::m_image”: class“cv::Mat”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/mat.hpp(774): note: 参见“cv::Mat”的声明
+f:\c#\visalglib-master\inc\Caliper.h(137): warning C4251: “VisionLibrary::Caliper::m_result”: class“std::vector<VisionLibrary::Caliper::CaliperResult,std::allocator<_Ty>>”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+          with
+          [
+              _Ty=VisionLibrary::Caliper::CaliperResult
+          ]
+  f:\c#\visalglib-master\inc\Caliper.h(89): note: 参见“std::vector<VisionLibrary::Caliper::CaliperResult,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=VisionLibrary::Caliper::CaliperResult
+          ]
+F:\C#\VisAlgLib-master\inc\FindLine.h(114): warning C4251: “VisionLibrary::FindLine::ptStart”: class“cv::Point_<int>”需要有 dll 接口由 class“VisionLibrary::FindLine”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/types.hpp(188): note: 参见“cv::Point_<int>”的声明
+F:\C#\VisAlgLib-master\inc\FindLine.h(115): warning C4251: “VisionLibrary::FindLine::ptEnd”: class“cv::Point_<int>”需要有 dll 接口由 class“VisionLibrary::FindLine”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/types.hpp(188): note: 参见“cv::Point_<int>”的声明
+F:\C#\VisAlgLib-master\inc\FindLine.h(130): warning C4251: “VisionLibrary::FindLine::ref”: class“VisionLibrary::PoseXYR”需要有 dll 接口由 class“VisionLibrary::FindLine”的客户端使用
+  F:\C#\VisAlgLib-master\inc\VisionLibrary.h(47): note: 参见“VisionLibrary::PoseXYR”的声明
+F:\C#\VisAlgLib-master\inc\FindLine.h(141): warning C4251: “VisionLibrary::FindLine::m_caliperResults”: class“std::vector<VisionLibrary::FindLine::FindLineCaliperResult,std::allocator<_Ty>>”需要有 dll 接口由 class“VisionLibrary::FindLine”的客户端使用
+          with
+          [
+              _Ty=VisionLibrary::FindLine::FindLineCaliperResult
+          ]
+  F:\C#\VisAlgLib-master\inc\FindLine.h(106): note: 参见“std::vector<VisionLibrary::FindLine::FindLineCaliperResult,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=VisionLibrary::FindLine::FindLineCaliperResult
+          ]
+F:\C#\VisAlgLib-master\inc\FindLine.h(145): warning C4251: “VisionLibrary::FindLine::vCalipers”: class“std::vector<VisionLibrary::Caliper,std::allocator<_Ty>>”需要有 dll 接口由 class“VisionLibrary::FindLine”的客户端使用
+          with
+          [
+              _Ty=VisionLibrary::Caliper
+          ]
+  F:\C#\VisAlgLib-master\inc\FindLine.h(145): note: 参见“std::vector<VisionLibrary::Caliper,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=VisionLibrary::Caliper
+          ]
+main.cpp(110): warning C4244: “初始化”: 从“int64”转换到“int”，可能丢失数据
+main.cpp(153): warning C4244: “=”: 从“int64”转换到“int”，可能丢失数据
+main.cpp(114): warning C4101: “via”: 未引用的局部变量
+  Caliper.cpp
+F:\C#\VisAlgLib-master\inc\VisionLibrary.h(67): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+F:\C#\VisAlgLib-master\inc\VisionLibrary.h(78): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+F:\C#\VisAlgLib-master\inc\Caliper.h(103): warning C4251: “VisionLibrary::Caliper::center”: class“cv::Point_<float>”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/types.hpp(190): note: 参见“cv::Point_<float>”的声明
+F:\C#\VisAlgLib-master\inc\Caliper.h(122): warning C4251: “VisionLibrary::Caliper::m_ref”: class“VisionLibrary::PoseXYR”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  F:\C#\VisAlgLib-master\inc\VisionLibrary.h(47): note: 参见“VisionLibrary::PoseXYR”的声明
+F:\C#\VisAlgLib-master\inc\Caliper.h(130): warning C4251: “VisionLibrary::Caliper::lastCenter”: class“cv::Point_<float>”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/types.hpp(190): note: 参见“cv::Point_<float>”的声明
+F:\C#\VisAlgLib-master\inc\Caliper.h(133): warning C4251: “VisionLibrary::Caliper::m_profile”: class“cv::Mat”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/mat.hpp(774): note: 参见“cv::Mat”的声明
+F:\C#\VisAlgLib-master\inc\Caliper.h(135): warning C4251: “VisionLibrary::Caliper::m_image”: class“cv::Mat”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/mat.hpp(774): note: 参见“cv::Mat”的声明
+F:\C#\VisAlgLib-master\inc\Caliper.h(137): warning C4251: “VisionLibrary::Caliper::m_result”: class“std::vector<VisionLibrary::Caliper::CaliperResult,std::allocator<_Ty>>”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+          with
+          [
+              _Ty=VisionLibrary::Caliper::CaliperResult
+          ]
+  F:\C#\VisAlgLib-master\inc\Caliper.h(89): note: 参见“std::vector<VisionLibrary::Caliper::CaliperResult,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=VisionLibrary::Caliper::CaliperResult
+          ]
+src\Caliper.cpp(77): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(79): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(95): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+src\Caliper.cpp(116): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+src\Caliper.cpp(135): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(245): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(246): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(286): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(303): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+src\Caliper.cpp(304): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+src\Caliper.cpp(306): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(308): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(309): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(310): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(311): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(313): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(314): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(316): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+src\Caliper.cpp(57): warning C4101: “j”: 未引用的局部变量
+src\Caliper.cpp(57): warning C4101: “i”: 未引用的局部变量
+src\Caliper.cpp(381): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+src\Caliper.cpp(393): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+src\Caliper.cpp(408): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(409): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(410): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(411): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(449): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(472): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(478): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(480): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+src\Caliper.cpp(481): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  CVMT.cpp
+F:\C#\VisAlgLib-master\inc\VisionLibrary.h(67): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+F:\C#\VisAlgLib-master\inc\VisionLibrary.h(78): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  FindCircle.cpp
+  FindLine.cpp
+f:\c#\visalglib-master\inc\VisionLibrary.h(67): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+f:\c#\visalglib-master\inc\VisionLibrary.h(78): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+f:\c#\visalglib-master\inc\Caliper.h(103): warning C4251: “VisionLibrary::Caliper::center”: class“cv::Point_<float>”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/types.hpp(190): note: 参见“cv::Point_<float>”的声明
+f:\c#\visalglib-master\inc\Caliper.h(122): warning C4251: “VisionLibrary::Caliper::m_ref”: class“VisionLibrary::PoseXYR”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  f:\c#\visalglib-master\inc\VisionLibrary.h(47): note: 参见“VisionLibrary::PoseXYR”的声明
+f:\c#\visalglib-master\inc\Caliper.h(130): warning C4251: “VisionLibrary::Caliper::lastCenter”: class“cv::Point_<float>”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/types.hpp(190): note: 参见“cv::Point_<float>”的声明
+f:\c#\visalglib-master\inc\Caliper.h(133): warning C4251: “VisionLibrary::Caliper::m_profile”: class“cv::Mat”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/mat.hpp(774): note: 参见“cv::Mat”的声明
+f:\c#\visalglib-master\inc\Caliper.h(135): warning C4251: “VisionLibrary::Caliper::m_image”: class“cv::Mat”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/mat.hpp(774): note: 参见“cv::Mat”的声明
+f:\c#\visalglib-master\inc\Caliper.h(137): warning C4251: “VisionLibrary::Caliper::m_result”: class“std::vector<VisionLibrary::Caliper::CaliperResult,std::allocator<_Ty>>”需要有 dll 接口由 class“VisionLibrary::Caliper”的客户端使用
+          with
+          [
+              _Ty=VisionLibrary::Caliper::CaliperResult
+          ]
+  f:\c#\visalglib-master\inc\Caliper.h(89): note: 参见“std::vector<VisionLibrary::Caliper::CaliperResult,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=VisionLibrary::Caliper::CaliperResult
+          ]
+F:\C#\VisAlgLib-master\inc\FindLine.h(114): warning C4251: “VisionLibrary::FindLine::ptStart”: class“cv::Point_<int>”需要有 dll 接口由 class“VisionLibrary::FindLine”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/types.hpp(188): note: 参见“cv::Point_<int>”的声明
+F:\C#\VisAlgLib-master\inc\FindLine.h(115): warning C4251: “VisionLibrary::FindLine::ptEnd”: class“cv::Point_<int>”需要有 dll 接口由 class“VisionLibrary::FindLine”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/types.hpp(188): note: 参见“cv::Point_<int>”的声明
+F:\C#\VisAlgLib-master\inc\FindLine.h(130): warning C4251: “VisionLibrary::FindLine::ref”: class“VisionLibrary::PoseXYR”需要有 dll 接口由 class“VisionLibrary::FindLine”的客户端使用
+  f:\c#\visalglib-master\inc\VisionLibrary.h(47): note: 参见“VisionLibrary::PoseXYR”的声明
+F:\C#\VisAlgLib-master\inc\FindLine.h(141): warning C4251: “VisionLibrary::FindLine::m_caliperResults”: class“std::vector<VisionLibrary::FindLine::FindLineCaliperResult,std::allocator<_Ty>>”需要有 dll 接口由 class“VisionLibrary::FindLine”的客户端使用
+          with
+          [
+              _Ty=VisionLibrary::FindLine::FindLineCaliperResult
+          ]
+  F:\C#\VisAlgLib-master\inc\FindLine.h(106): note: 参见“std::vector<VisionLibrary::FindLine::FindLineCaliperResult,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=VisionLibrary::FindLine::FindLineCaliperResult
+          ]
+F:\C#\VisAlgLib-master\inc\FindLine.h(145): warning C4251: “VisionLibrary::FindLine::vCalipers”: class“std::vector<VisionLibrary::Caliper,std::allocator<_Ty>>”需要有 dll 接口由 class“VisionLibrary::FindLine”的客户端使用
+          with
+          [
+              _Ty=VisionLibrary::Caliper
+          ]
+  F:\C#\VisAlgLib-master\inc\FindLine.h(145): note: 参见“std::vector<VisionLibrary::Caliper,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=VisionLibrary::Caliper
+          ]
+src\FindLine.cpp(63): warning C4273: “VisionLibrary::FindLine::FindLine”: dll 链接不一致
+  F:\C#\VisAlgLib-master\inc\FindLine.h(78): note: 参见“{ctor}”的前一个定义
+src\FindLine.cpp(70): warning C4273: “VisionLibrary::FindLine::FindLine”: dll 链接不一致
+  F:\C#\VisAlgLib-master\inc\FindLine.h(85): note: 参见“{ctor}”的前一个定义
+src\FindLine.cpp(76): warning C4273: “VisionLibrary::FindLine::FindLine”: dll 链接不一致
+  F:\C#\VisAlgLib-master\inc\FindLine.h(92): note: 参见“{ctor}”的前一个定义
+src\FindLine.cpp(85): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+src\FindLine.cpp(86): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+src\FindLine.cpp(91): warning C4273: “VisionLibrary::FindLine::FindLine”: dll 链接不一致
+  F:\C#\VisAlgLib-master\inc\FindLine.h(87): note: 参见“{ctor}”的前一个定义
+src\FindLine.cpp(98): warning C4273: “VisionLibrary::FindLine::operator =”: dll 链接不一致
+  F:\C#\VisAlgLib-master\inc\FindLine.h(80): note: 参见“=”的前一个定义
+src\FindLine.cpp(110): warning C4273: “VisionLibrary::FindLine::~FindLine”: dll 链接不一致
+  F:\C#\VisAlgLib-master\inc\FindLine.h(96): note: 参见“{dtor}”的前一个定义
+src\FindLine.cpp(116): warning C4273: “VisionLibrary::FindLine::run”: dll 链接不一致
+  F:\C#\VisAlgLib-master\inc\FindLine.h(103): note: 参见“run”的前一个定义
+src\FindLine.cpp(128): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+src\FindLine.cpp(129): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+src\FindLine.cpp(137): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+src\FindLine.cpp(138): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+src\FindLine.cpp(268): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+src\FindLine.cpp(273): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+src\FindLine.cpp(278): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+src\FindLine.cpp(283): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+src\FindLine.cpp(294): warning C4273: “VisionLibrary::FindLine::getCaliperResult”: dll 链接不一致
+  F:\C#\VisAlgLib-master\inc\FindLine.h(106): note: 参见“getCaliperResult”的前一个定义
+src\FindLine.cpp(299): warning C4273: “VisionLibrary::FindLine::getProfile”: dll 链接不一致
+  F:\C#\VisAlgLib-master\inc\FindLine.h(108): note: 参见“getProfile”的前一个定义
+src\FindLine.cpp(309): warning C4273: “VisionLibrary::FindLine::getCaliperImage”: dll 链接不一致
+  F:\C#\VisAlgLib-master\inc\FindLine.h(110): note: 参见“getCaliperImage”的前一个定义
+src\FindLine.cpp(320): warning C4273: “VisionLibrary::FindLine::Success”: dll 链接不一致
+  F:\C#\VisAlgLib-master\inc\FindLine.h(112): note: 参见“Success”的前一个定义
+f:\c#\visalglib-master\src\CVRANSAC.h(188): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  f:\c#\visalglib-master\src\CVRANSAC.h(186): note: 编译类 模板 成员函数“bool CVRANSAC<VisionLibrary::FindLine::FindLineCaliperResult,double>::compute(const std::vector<VisionLibrary::FindLine::FindLineCaliperResult,std::allocator<_Ty>> &,CVRANSAC_ParameterEstimator<T,S> *,int,double,std::vector<_Tp,std::allocator<double>> &,std::vector<bool,std::allocator<bool>>,std::vector<_Tp,std::allocator<double>>,std::vector<_Tp,std::allocator<double>>,std::vector<_Ty,std::allocator<_Ty>> &,std::vector<_Ty,std::allocator<_Ty>> &)”时
+          with
+          [
+              _Ty=VisionLibrary::FindLine::FindLineCaliperResult,
+              T=VisionLibrary::FindLine::FindLineCaliperResult,
+              S=double,
+              _Tp=double
+          ]
+  src\FindLine.cpp(230): note: 参见对正在编译的函数 模板 实例化“bool CVRANSAC<VisionLibrary::FindLine::FindLineCaliperResult,double>::compute(const std::vector<VisionLibrary::FindLine::FindLineCaliperResult,std::allocator<_Ty>> &,CVRANSAC_ParameterEstimator<T,S> *,int,double,std::vector<_Tp,std::allocator<double>> &,std::vector<bool,std::allocator<bool>>,std::vector<_Tp,std::allocator<double>>,std::vector<_Tp,std::allocator<double>>,std::vector<_Ty,std::allocator<_Ty>> &,std::vector<_Ty,std::allocator<_Ty>> &)”的引用
+          with
+          [
+              _Ty=VisionLibrary::FindLine::FindLineCaliperResult,
+              T=VisionLibrary::FindLine::FindLineCaliperResult,
+              S=double,
+              _Tp=double
+          ]
+  src\FindLine.cpp(230): note: 参见对正在编译的类 模板 实例化“CVRANSAC<VisionLibrary::FindLine::FindLineCaliperResult,double>”的引用
+  Inspector.cpp
+F:\C#\VisAlgLib-master\inc\Inspector.h(92): warning C4251: “Inspector::m_imgInitial”: class“cv::Mat”需要有 dll 接口由 class“Inspector”的客户端使用
+  E:\opencv\opencv\build\include\opencv2/core/mat.hpp(774): note: 参见“cv::Mat”的声明
+F:\C#\VisAlgLib-master\inc\Inspector.h(96): warning C4251: “Inspector::m_vROIs”: class“std::vector<std::vector<cv::Point,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>”需要有 dll 接口由 class“Inspector”的客户端使用
+          with
+          [
+              _Ty=cv::Point
+          ]
+  E:\opencv\opencv\build\include\opencv2/features2d.hpp(404): note: 参见“std::vector<std::vector<cv::Point,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>”的声明
+          with
+          [
+              _Ty=cv::Point
+          ]
+F:\C#\VisAlgLib-master\inc\Inspector.h(97): warning C4251: “Inspector::m_vIgnoreROIs”: class“std::vector<std::vector<cv::Point,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>”需要有 dll 接口由 class“Inspector”的客户端使用
+          with
+          [
+              _Ty=cv::Point
+          ]
+  E:\opencv\opencv\build\include\opencv2/features2d.hpp(404): note: 参见“std::vector<std::vector<cv::Point,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>”的声明
+          with
+          [
+              _Ty=cv::Point
+          ]
+F:\C#\VisAlgLib-master\inc\Inspector.h(98): warning C4251: “Inspector::m_vRoiBoudingBoxes”: class“std::vector<cv::Rect,std::allocator<_Ty>>”需要有 dll 接口由 class“Inspector”的客户端使用
+          with
+          [
+              _Ty=cv::Rect
+          ]
+  E:\opencv\opencv\build\include\opencv2/highgui.hpp(523): note: 参见“std::vector<cv::Rect,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=cv::Rect
+          ]
+F:\C#\VisAlgLib-master\inc\Inspector.h(99): warning C4251: “Inspector::m_vBoudingBoxMask”: class“std::vector<cv::Mat,std::allocator<_Ty>>”需要有 dll 接口由 class“Inspector”的客户端使用
+          with
+          [
+              _Ty=cv::Mat
+          ]
+  E:\opencv\opencv\build\include\opencv2/core/mat.hpp(183): note: 参见“std::vector<cv::Mat,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=cv::Mat
+          ]
+F:\C#\VisAlgLib-master\inc\Inspector.h(101): warning C4251: “Inspector::m_vMaps”: class“std::vector<cv::Mat,std::allocator<_Ty>>”需要有 dll 接口由 class“Inspector”的客户端使用
+          with
+          [
+              _Ty=cv::Mat
+          ]
+  E:\opencv\opencv\build\include\opencv2/core/mat.hpp(183): note: 参见“std::vector<cv::Mat,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=cv::Mat
+          ]
+F:\C#\VisAlgLib-master\inc\Inspector.h(109): warning C4251: “Inspector::m_vStatisticalImages”: class“std::vector<std::vector<cv::Mat,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>”需要有 dll 接口由 class“Inspector”的客户端使用
+          with
+          [
+              _Ty=cv::Mat
+          ]
+  F:\C#\VisAlgLib-master\inc\Inspector.h(109): note: 参见“std::vector<std::vector<cv::Mat,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>”的声明
+          with
+          [
+              _Ty=cv::Mat
+          ]
+F:\C#\VisAlgLib-master\inc\Inspector.h(110): warning C4251: “Inspector::m_vRefImage”: class“std::vector<cv::Mat,std::allocator<_Ty>>”需要有 dll 接口由 class“Inspector”的客户端使用
+          with
+          [
+              _Ty=cv::Mat
+          ]
+  E:\opencv\opencv\build\include\opencv2/core/mat.hpp(183): note: 参见“std::vector<cv::Mat,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=cv::Mat
+          ]
+F:\C#\VisAlgLib-master\inc\Inspector.h(111): warning C4251: “Inspector::m_vThresholdImage”: class“std::vector<cv::Mat,std::allocator<_Ty>>”需要有 dll 接口由 class“Inspector”的客户端使用
+          with
+          [
+              _Ty=cv::Mat
+          ]
+  E:\opencv\opencv\build\include\opencv2/core/mat.hpp(183): note: 参见“std::vector<cv::Mat,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=cv::Mat
+          ]
+F:\C#\VisAlgLib-master\inc\Inspector.h(158): warning C4251: “AnchorPosInspector::m_vInitialAnchorPos”: class“std::vector<cv::Point2f,std::allocator<_Ty>>”需要有 dll 接口由 class“AnchorPosInspector”的客户端使用
+          with
+          [
+              _Ty=cv::Point2f
+          ]
+  E:\opencv\opencv\build\include\opencv2/core/types.hpp(736): note: 参见“std::vector<cv::Point2f,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=cv::Point2f
+          ]
+src\Inspector.cpp(90): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+src\Inspector.cpp(94): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+src\Inspector.cpp(214): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“std::size_t”
+  src\Inspector.cpp(214): note: 请考虑在格式字符串中使用“%zd”
+src\Inspector.cpp(137): warning C4101: “buf”: 未引用的局部变量
+src\Inspector.cpp(365): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+src\Inspector.cpp(366): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+src\Inspector.cpp(375): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+src\Inspector.cpp(380): warning C4244: “参数”: 从“std::size_t”转换到“double”，可能丢失数据
+src\Inspector.cpp(466): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+src\Inspector.cpp(467): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+src\Inspector.cpp(476): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+src\Inspector.cpp(481): warning C4244: “参数”: 从“std::size_t”转换到“double”，可能丢失数据
+  正在生成代码...
+e:\opencv\opencv\build\include\opencv2\core\cvstd.hpp(575): warning C4793: “cv::String::String”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(483): warning C4793: “cv::Mat::Mat”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(807): warning C4793: “cv::Mat::release”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(2141): warning C4793: “cv::SparseMat::addref”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(3741): warning C4793: “cv::UMat::addref”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\ptr.inl.hpp(67): warning C4793: “cv::detail::PtrOwner::incRef”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\ptr.inl.hpp(72): warning C4793: “cv::detail::PtrOwner::decRef”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(705): warning C4793: “cv::Mat::operator=”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\cvstd.hpp(575): warning C4793: “cv::String::String”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(483): warning C4793: “cv::Mat::Mat”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\fast_math.hpp(193): warning C4793: “`anonymous namespace'::cvRound”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\fast_math.hpp(194): warning C4793: “`anonymous namespace'::cvRound”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(807): warning C4793: “cv::Mat::release”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(2141): warning C4793: “cv::SparseMat::addref”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(3741): warning C4793: “cv::UMat::addref”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\ptr.inl.hpp(67): warning C4793: “cv::detail::PtrOwner::incRef”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\ptr.inl.hpp(72): warning C4793: “cv::detail::PtrOwner::decRef”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(705): warning C4793: “cv::Mat::operator=”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\cvstd.hpp(575): warning C4793: “cv::String::String”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(483): warning C4793: “cv::Mat::Mat”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(2141): warning C4793: “cv::SparseMat::addref”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(3741): warning C4793: “cv::UMat::addref”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\ptr.inl.hpp(67): warning C4793: “cv::detail::PtrOwner::incRef”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\ptr.inl.hpp(72): warning C4793: “cv::detail::PtrOwner::decRef”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\cvstd.hpp(575): warning C4793: “cv::String::String”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(483): warning C4793: “cv::Mat::Mat”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(807): warning C4793: “cv::Mat::release”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(2141): warning C4793: “cv::SparseMat::addref”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(3741): warning C4793: “cv::UMat::addref”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\ptr.inl.hpp(67): warning C4793: “cv::detail::PtrOwner::incRef”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\ptr.inl.hpp(72): warning C4793: “cv::detail::PtrOwner::decRef”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(705): warning C4793: “cv::Mat::operator=”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\cvstd.hpp(575): warning C4793: “cv::String::String”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(483): warning C4793: “cv::Mat::Mat”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(807): warning C4793: “cv::Mat::release”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(2141): warning C4793: “cv::SparseMat::addref”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(3741): warning C4793: “cv::UMat::addref”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\ptr.inl.hpp(67): warning C4793: “cv::detail::PtrOwner::incRef”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\ptr.inl.hpp(72): warning C4793: “cv::detail::PtrOwner::decRef”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(705): warning C4793: “cv::Mat::operator=”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\cvstd.hpp(575): warning C4793: “cv::String::String”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(483): warning C4793: “cv::Mat::Mat”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(807): warning C4793: “cv::Mat::release”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(2141): warning C4793: “cv::SparseMat::addref”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(3741): warning C4793: “cv::UMat::addref”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\ptr.inl.hpp(67): warning C4793: “cv::detail::PtrOwner::incRef”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\ptr.inl.hpp(72): warning C4793: “cv::detail::PtrOwner::decRef”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\fast_math.hpp(193): warning C4793: “`anonymous namespace'::cvRound”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\fast_math.hpp(194): warning C4793: “`anonymous namespace'::cvRound”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\fast_math.hpp(105): warning C4793: “`anonymous namespace'::cvRound”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\fast_math.hpp(106): warning C4793: “`anonymous namespace'::cvRound”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+e:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(705): warning C4793: “cv::Mat::operator=”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1193,5): warning MSB8030: The linker switch "Minimum Required Version" requires "SubSystem" to be set.  Without "SubSystem", the "Minimum Required Version" would not be passed to linker and could prevent to the output binary from running on older Operating Systems.
+  FixPoint.obj :托管的代码存在时 /DEBUG:FASTLINK 不受支持；正在重新启动与 /DEBUG:FULL 的链接
+    正在创建库 F:\C#\VisAlgLib-master\x64\Debug\VisAlgLib.lib 和对象 F:\C#\VisAlgLib-master\x64\Debug\VisAlgLib.exp
+  VisAlgLib.vcxproj -> F:\C#\VisAlgLib-master\x64\Debug\VisAlgLib.exe
+  VisAlgLib.vcxproj -> F:\C#\VisAlgLib-master\x64\Debug\VisAlgLib.pdb (Partial PDB)

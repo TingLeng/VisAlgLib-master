@@ -1,0 +1,49 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly VisAlgLib, Version=0.0.*, Culture=固定语言(固定国家/地区): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class VisionLibrary.FixPoint: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    Int32 x : Public
+    Int32 y : Public
+    Int32 x1 : Public
+    Int32 y1 : Public
+    Int32 x2 : Public
+    Int32 y2 : Public
+    Double posOfRealWorld_X : Public
+    Double posOfRealWorld_Y : Public
+    Double angleToHorizon : Public
+    Double midPos_X : Public
+    Double midPos_Y : Public
+    Single aa1 : Public
+    Single bb1 : Public
+    Single tt1 : Public
+    Single aa2 : Public
+    Single bb2 : Public
+    Single tt2 : Public
+    Int32 t1_x : Public
+    Int32 t1_y : Public
+    Int32 t2_x : Public
+    Int32 t2_y : Public
+    Int32 t3_x : Public
+    Int32 t3_y : Public
+  Methods:
+    getFixPoint(String, Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32, Bitmap&): PrivateScope, Public, HideBySig
+    getFixPoint(Bitmap, Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32, Bitmap&): PrivateScope, Public, HideBySig
+    getLineA(Mat*, Int32, Int32, Int32, Int32, Line* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    getLineB(Mat*, Int32, Int32, Int32, Int32, Line* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    getAngleToHorizon(): PrivateScope, Public, HideBySig
+    transForm(Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double): PrivateScope, Public, HideBySig
+    pictureToWorld(Double, Double, Double, Double, Double, Double, Double, Double): PrivateScope, Public, HideBySig
+    getRealMid(Double, Double, Double, Double): PrivateScope, Public, HideBySig
+    diffGetPoint(String, String, String, String): PrivateScope, Public, HideBySig
+    maxConnectedCompents(Mat*, Mat* IsImplicitlyDereferenced, Point_<int>* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig

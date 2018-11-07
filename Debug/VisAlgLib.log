@@ -1,0 +1,111 @@
+﻿  Inspector.cpp
+e:\qt\opencv2.4.10\opencv\build\include\opencv2\flann\logger.h(66): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+f:\c#\visalglib-master\inc\inspector.h(92): warning C4251: “Inspector::m_imgInitial”: class“cv::Mat”需要有 dll 接口由 class“Inspector”的客户端使用
+  e:\qt\opencv2.4.10\opencv\build\include\opencv2\core\core.hpp(1690): note: 参见“cv::Mat”的声明
+f:\c#\visalglib-master\inc\inspector.h(96): warning C4251: “Inspector::m_vROIs”: class“std::vector<std::vector<cv::Point,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>”需要有 dll 接口由 class“Inspector”的客户端使用
+          with
+          [
+              _Ty=cv::Point
+          ]
+  e:\qt\opencv2.4.10\opencv\build\include\opencv2\features2d\features2d.hpp(517): note: 参见“std::vector<std::vector<cv::Point,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>”的声明
+          with
+          [
+              _Ty=cv::Point
+          ]
+f:\c#\visalglib-master\inc\inspector.h(97): warning C4251: “Inspector::m_vIgnoreROIs”: class“std::vector<std::vector<cv::Point,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>”需要有 dll 接口由 class“Inspector”的客户端使用
+          with
+          [
+              _Ty=cv::Point
+          ]
+  e:\qt\opencv2.4.10\opencv\build\include\opencv2\features2d\features2d.hpp(517): note: 参见“std::vector<std::vector<cv::Point,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>”的声明
+          with
+          [
+              _Ty=cv::Point
+          ]
+f:\c#\visalglib-master\inc\inspector.h(98): warning C4251: “Inspector::m_vRoiBoudingBoxes”: class“std::vector<cv::Rect,std::allocator<_Ty>>”需要有 dll 接口由 class“Inspector”的客户端使用
+          with
+          [
+              _Ty=cv::Rect
+          ]
+  e:\qt\opencv2.4.10\opencv\build\include\opencv2\video\tracking.hpp(247): note: 参见“std::vector<cv::Rect,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=cv::Rect
+          ]
+f:\c#\visalglib-master\inc\inspector.h(99): warning C4251: “Inspector::m_vBoudingBoxMask”: class“std::vector<cv::Mat,std::allocator<_Ty>>”需要有 dll 接口由 class“Inspector”的客户端使用
+          with
+          [
+              _Ty=cv::Mat
+          ]
+  e:\qt\opencv2.4.10\opencv\build\include\opencv2\core\core.hpp(1341): note: 参见“std::vector<cv::Mat,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=cv::Mat
+          ]
+f:\c#\visalglib-master\inc\inspector.h(101): warning C4251: “Inspector::m_vMaps”: class“std::vector<cv::Mat,std::allocator<_Ty>>”需要有 dll 接口由 class“Inspector”的客户端使用
+          with
+          [
+              _Ty=cv::Mat
+          ]
+  e:\qt\opencv2.4.10\opencv\build\include\opencv2\core\core.hpp(1341): note: 参见“std::vector<cv::Mat,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=cv::Mat
+          ]
+f:\c#\visalglib-master\inc\inspector.h(109): warning C4251: “Inspector::m_vStatisticalImages”: class“std::vector<cv::linemod::Detector::LinearMemories,std::allocator<_Ty>>”需要有 dll 接口由 class“Inspector”的客户端使用
+          with
+          [
+              _Ty=cv::linemod::Detector::LinearMemories
+          ]
+  e:\qt\opencv2.4.10\opencv\build\include\opencv2\objdetect\objdetect.hpp(1044): note: 参见“std::vector<cv::linemod::Detector::LinearMemories,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=cv::linemod::Detector::LinearMemories
+          ]
+f:\c#\visalglib-master\inc\inspector.h(110): warning C4251: “Inspector::m_vRefImage”: class“std::vector<cv::Mat,std::allocator<_Ty>>”需要有 dll 接口由 class“Inspector”的客户端使用
+          with
+          [
+              _Ty=cv::Mat
+          ]
+  e:\qt\opencv2.4.10\opencv\build\include\opencv2\core\core.hpp(1341): note: 参见“std::vector<cv::Mat,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=cv::Mat
+          ]
+f:\c#\visalglib-master\inc\inspector.h(111): warning C4251: “Inspector::m_vThresholdImage”: class“std::vector<cv::Mat,std::allocator<_Ty>>”需要有 dll 接口由 class“Inspector”的客户端使用
+          with
+          [
+              _Ty=cv::Mat
+          ]
+  e:\qt\opencv2.4.10\opencv\build\include\opencv2\core\core.hpp(1341): note: 参见“std::vector<cv::Mat,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=cv::Mat
+          ]
+f:\c#\visalglib-master\inc\inspector.h(158): warning C4251: “AnchorPosInspector::m_vInitialAnchorPos”: class“std::vector<cv::Point2f,std::allocator<_Ty>>”需要有 dll 接口由 class“AnchorPosInspector”的客户端使用
+          with
+          [
+              _Ty=cv::Point2f
+          ]
+  e:\qt\opencv2.4.10\opencv\build\include\opencv2\imgproc\imgproc.hpp(1235): note: 参见“std::vector<cv::Point2f,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=cv::Point2f
+          ]
+f:\c#\visalglib-master\src\inspector.cpp(137): warning C4101: “buf”: 未引用的局部变量
+  FindLine.cpp
+f:\c#\visalglib-master\inc\findline.h(4): fatal error C1083: 无法打开包括文件: “core.hpp”: No such file or directory
+  FindCircle.cpp
+  CVMT.cpp
+f:\c#\visalglib-master\inc\visionlibrary.h(67): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+f:\c#\visalglib-master\inc\visionlibrary.h(78): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  Caliper.cpp
+f:\c#\visalglib-master\src\caliper.cpp(2): fatal error C1083: 无法打开包括文件: “core.hpp”: No such file or directory
+  main.cpp
+f:\c#\visalglib-master\inc\visionlibrary.h(67): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+f:\c#\visalglib-master\inc\visionlibrary.h(78): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+f:\c#\visalglib-master\inc\findline.h(4): fatal error C1083: 无法打开包括文件: “core.hpp”: No such file or directory
+  FixPoint.cpp
+f:\c#\visalglib-master\inc\findline.h(4): fatal error C1083: 无法打开包括文件: “core.hpp”: No such file or directory
+  正在生成代码...
